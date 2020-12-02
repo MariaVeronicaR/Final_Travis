@@ -72,7 +72,7 @@ public class TestDoubles extends DBTestCase{
 	
 	@Test
 	public void testUpdateAvg() throws Exception{
-		Alumno alumno = new Alumno("Ivanna", 7, 20, 5.9f,"ivanna@hotmail.com");
+		Alumno alumno = new Alumno("Ivanna", 7, 20, 6.0f,"ivanna@hotmail.com");
 		AlumnoMysql functions = new AlumnoMysql();
 		functions.updatePromedio(alumno);
 		
